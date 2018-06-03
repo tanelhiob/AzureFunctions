@@ -1,0 +1,6 @@
+﻿{
+  "id": "6509d6fc6d6643f68f9811c8e4c3c846",
+  "statusQueryGetUri": "http://localhost:7071/runtime/webhooks/DurableTaskExtension/instances/6509d6fc6d6643f68f9811c8e4c3c846?taskHub=DurableFunctionsHub&connection=Storage&code=arN0lBzGWM8cpG75vu0l2BaazVNuUzq0tOaf/2sxwTGaCPNz/qWyJQ==",
+  "sendEventPostUri": "http://localhost:7071/runtime/webhooks/DurableTaskExtension/instances/6509d6fc6d6643f68f9811c8e4c3c846/raiseEvent/{eventName}?taskHub=DurableFunctionsHub&connection=Storage&code=arN0lBzGWM8cpG75vu0l2BaazVNuUzq0tOaf/2sxwTGaCPNz/qWyJQ==",
+  "terminatePostUri": "http://localhost:7071/runtime/webhooks/DurableTaskExtension/instances/6509d6fc6d6643f68f9811c8e4c3c846/terminate?reason={text}&taskHub=DurableFunctionsHub&connection=Storage&code=arN0lBzGWM8cpG75vu0l2BaazVNuUzq0tOaf/2sxwTGaCPNz/qWyJQ=="
+}

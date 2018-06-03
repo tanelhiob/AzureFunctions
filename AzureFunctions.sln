@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions.Functions", "AzureFunctions.Functions\AzureFunctions.Functions.csproj", "{ECF19645-AAAD-4D70-B0F6-C10162AFA489}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Durable", "Durable\Durable.fsproj", "{B0246EEB-20A4-44A7-B725-33F3BBB97808}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Durable.Client", "Durable.Client\Durable.Client.fsproj", "{A6FAB8A5-8886-470D-917A-B441F4CF46F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECF19645-AAAD-4D70-B0F6-C10162AFA489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECF19645-AAAD-4D70-B0F6-C10162AFA489}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECF19645-AAAD-4D70-B0F6-C10162AFA489}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECF19645-AAAD-4D70-B0F6-C10162AFA489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0246EEB-20A4-44A7-B725-33F3BBB97808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0246EEB-20A4-44A7-B725-33F3BBB97808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0246EEB-20A4-44A7-B725-33F3BBB97808}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0246EEB-20A4-44A7-B725-33F3BBB97808}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A6FAB8A5-8886-470D-917A-B441F4CF46F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FAB8A5-8886-470D-917A-B441F4CF46F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FAB8A5-8886-470D-917A-B441F4CF46F6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FAB8A5-8886-470D-917A-B441F4CF46F6}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "id": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "website_slug": "bitcoin",
+    "rank": 1,
+    "circulating_supply": 17070950.0,
+    "total_supply": 17070950.0,
+    "max_supply": 21000000.0,
+    "quotes": {
+      "USD": {
+        "price": 7642.22,
+        "volume_24h": 4949140000.0,
+        "market_cap": 130459955509.0,
+        "percent_change_1h": 0.22,
+        "percent_change_24h": 1.55,
+        "percent_change_7d": 3.01
+      },
+      "EUR": {
+        "price": 6550.0064281123005,
+        "volume_24h": 4241817013.0704951,
+        "market_cap": 111814832234.0,
+        "percent_change_1h": 0.22,
+        "percent_change_24h": 1.55,
+        "percent_change_7d": 3.01
+      }
+    },
+    "last_updated": 1527983073
+  },
+  "metadata": {
+    "timestamp": 1527982865,
+    "error": null
+  }
+}
